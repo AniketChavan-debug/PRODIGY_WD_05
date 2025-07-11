@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+.app {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  width: 100%;
+}
+.controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.controls select,
+.controls button {
+  padding: 0.5rem;
+}
+.weather-result img {
+  width: 80px;
+  height: 80px;
+}
+.weather-result h2 {
+  margin: 0.5rem 0;
+}
