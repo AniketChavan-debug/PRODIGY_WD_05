@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Fetcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Weather Fetcher</h1>
+    <div class="controls">
+      <select id="citySelect">
+        <option value="London,uk">London, UK</option>
+        <option value="New York,us">New York, US</option>
+        <option value="Tokyo,jp">Tokyo, Japan</option>
+        <option value="Delhi,in">Delhi, India</option>
+        <option value="Sydney,au">Sydney, Australia</option>
+      </select>
+      <button id="getWeatherBtn">Get Weather</button>
+    </div>
+    <div id="weatherResult" class="weather-result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
